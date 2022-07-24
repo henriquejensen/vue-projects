@@ -1,11 +1,13 @@
 <script setup>
 import Title from "./components/AppTitle.vue";
+import Form from "./components/FormCard.vue";
 </script>
 
 <template>
   <main class="container">
     <section class="section">
       <Title title="Adicionar nova carta" />
+      <Form />
     </section>
     <section class="section section--dark">
       <Title title="Pré-visualização" />
